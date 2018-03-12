@@ -1,0 +1,133 @@
+#fullpage {
+	background-image: url(images/background.png); 
+	background-repeat: repeat;
+	margin:-7px;
+}
+#menubar_container{
+	height: 45px;
+	}
+#menubar{
+	height: 25px;
+	width: 482px;
+	position: absolute;
+	background-color: rgba(171,94,47,0.7);
+	left: 419px;
+	top: 78px;
+	letter-spacing: 2px;
+	word-spacing: 7px;
+	text-align: center;
+	vertical-align: middle;
+	padding-top: 3px;
+	padding-right: 7px;
+	padding-bottom: 5px;
+	padding-left: 7px;
+	border-top:2px solid rgba(102,102,102,1);
+	border-bottom: 2px solid rgba(102,102,102,1);
+	}
+#left_trns_grad{
+	position: absolute;
+	top: 78px;
+	width: 92px;
+	height: 33px;
+	background-color: rgba(233,195,122,0.8);
+	background: -moz-linear-gradient(left, rgba(233,195,122,0) 0%, rgba(189,124,70,0.8) 85%, rgba(171,94,47,0.7) 100%);
+	background: -webkit-linear-gradient(left,rgba(233,195,122,0) 0%, rgba(189,124,70,0.8) 85%, rgba(171,94,47,0.7) 100%);
+	background: -0-linear-gradient(left,rgba(233,195,122,0) 0%, rgba(189,124,70,0.8) 85%, rgba(171,94,47,0.7) 100%);
+	background: -ms-linear-gradient(left,rgba(233,195,122,0) 0%, rgba(189,124,70,0.8) 85%, rgba(171,94,47,0.7) 100%);
+	background: linear-gradient(left,rgba(233,195,122,0) 0%, rgba(189,124,70,0.8) 85%, rgba(171,94,47,0.7) 100%);
+	left: 327px;
+	border-width: 2px 0 2px 0;
+	border-style: solid;
+	-moz-border-image: -moz-linear-gradient(left, rgba(233,195,122,0) , rgba(102,102,102,1)) 100% 1;
+	-webkit-border-image: -webkit-gradient(linear,0 0,100% 0,from( rgba(233,195,122,0)), to(rgba(102,102,102, 1))) 100% 1;
+	-webkit-border-image: -webkit-linear-gradient(left,rgba(233,195,122,0), rgba(102,102,102, 1)) 100% 1;
+	-o-border-image: -o-linear-gradient(left,rgba(233,195,122,0), rgba(102,102,102, 1)) 100% 1;
+	-ms-border-image: -ms-linear-gradient(left,rgba(233,195,122,0)), rgba(102,102,102, 1)) 100% 1;
+	}	
+#right_trns_grad{
+	position: absolute;
+	top: 78px;
+	width: 92px;
+	height: 33px;
+	background-color: rgba(233,195,122,0.8);
+	background: -moz-linear-gradient(right, rgba(233,195,122,0) 0%, rgba(189,124,70,0.8) 85%, rgba(171,94,47,0.7) 100%);
+	background: -webkit-linear-gradient(right,rgba(233,195,122,0) 0%, rgba(189,124,70,0.8) 85%, rgba(171,94,47,0.7) 100%);
+	background: -0-linear-gradient(right,rgba(233,195,122,0) 0%, rgba(189,124,70,0.8) 85%, rgba(171,94,47,0.7) 100%);
+	background: -ms-linear-gradient(right,rgba(233,195,122,0) 0%, rgba(189,124,70,0.8) 85%, rgba(171,94,47,0.7) 100%);
+	background: linear-gradient(right,rgba(233,195,122,0) 0%, rgba(189,124,70,0.8) 85%, rgba(171,94,47,0.7) 100%);
+	left: 915px;
+	border-width: 2px 0 2px 0;
+	border-style: solid;
+	-moz-border-image: -moz-linear-gradient(right, rgba(233,195,122,0) , rgba(102,102,102,1)) 100% 1;
+	-webkit-border-image: -webkit-gradient(linear,100% 0,0 0,from( rgba(233,195,122,0)), to(rgba(102,102,102, 1))) 100% 1;
+	-webkit-border-image: -webkit-linear-gradient(right,rgba(233,195,122,0), rgba(102,102,102, 1)) 100% 1;
+	-o-border-image: -o-linear-gradient(right,rgba(233,195,122,0), rgba(102,102,102, 1)) 100% 1;
+	-ms-border-image: -ms-linear-gradient(right,rgba(233,195,122,0)), rgba(102,102,102, 1)) 100% 1;
+}	
+#home,#act2005,#aboutus,#contactus {
+	height: auto;
+	width: auto;
+	background-color: rgba(109,55,29,1);
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color:white;
+	text-shadow: 1px 1px rgba(255,0,0,1);
+	font-size: 16px;
+	padding:3px;
+	font-style: oblique;
+	margin: -1px;
+	margin-top:5px;
+	padding-top: -4px;
+	padding-right: -1px;
+	padding-bottom: -4px;
+	padding-left: -1px;
+	border-top-width: 2px;
+	border-right-width: 3px;
+	border-bottom-width: 2px;
+	border-left-width: 3px;
+	border-top-style: inset;
+	border-right-style: inset;
+	border-bottom-style: inset;
+	border-left-style: inset;
+	border-top-color: rgba(159,81,43,1);
+	border-right-color: rgba(159,81,43,1);
+	border-bottom-color: rgba(159,81,43,1);
+	border-left-color: rgba(159,81,43,1);
+	overflow:hidden;
+	-moz-transition: all 0.5s ease-in-out; /* CSS3 transition to animate all A properties */
+	-webkit-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+	}
+	#home:hover,#act2005:hover,#aboutus:hover,#contactus:hover {
+	color:black;
+	text-shadow: 1px 1px white ;
+	background-color:rgba(231,177,99,1);
+	border: 1px 2px 1px 2px;
+	//border-style: solid;
+	border-color:rgba(109,55,29,1);
+	box-shadow: 1px 1px 2px 1px white inset;
+	-webkit-border-radius: 37%; /* large radius to create circular borders */
+	-moz-border-radius: 37%;
+	border-radius: 37%;
+	}
+#content_transparent{
+	width:1140px;
+	height:auto;
+	padding-top:20px;
+	background-color:rgba(0,0,0,0.2);
+	border:1px solid rgba(0,0,0,0.5);
+	box-shadow:0 0 10px #000;
+	}	
+#footer{
+	height:37px;
+	background-color:rgba(171,94,51,0.3);
+	border-top:2px;
+	border-width:1px 0px 0px 0px; border-style:solid;
+	border-color:white;
+	-moz-border-image: -moz-linear-gradient(left,rgba(255,255,255, 0.5), white, rgba(255,255,255, 0.5)) 100% 1;
+	-webkit-border-image: -webkit-gradient(linear,0 0,100% 0,from( white), to(rgba(255,255,255, 0.5))) 100% 1;
+	-webkit-border-image: -webkit-linear-gradient(left,rgba(255,255,255, 0.5), white, rgba(255,255,255, 0.5)) 100% 1;
+	-o-border-image: -o-linear-gradient(left,rgba(255,255,255, 0.5), white, rgba(255,255,255, 0.5)) 100% 1;
+	}
